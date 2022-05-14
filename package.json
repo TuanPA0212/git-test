@@ -1,10 +1,12 @@
 {
   "name": "package.json",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the Git and Node basic learning project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
